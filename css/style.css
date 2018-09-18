@@ -24,9 +24,9 @@ body {
     text-align: center;
   }
   canvas{display:block}
-  h1 {
+  h1, img{
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(161, 14, 137);
@@ -39,7 +39,12 @@ body {
     animation-name: example;
     animation-duration: 20s;
     text-shadow: 2px 2px 8px rgb(238, 148, 190),2px 2px 5px rgb(195, 0, 255);
-    
+  }
+  img {
+    height: 150px;
+    width: 150px;
+    top: 15%;
+    border-radius: 50%;
   }
 
   
