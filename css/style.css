@@ -26,7 +26,7 @@ body {
   canvas{display:block}
   h1, img{
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(161, 14, 137);
